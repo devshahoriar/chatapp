@@ -1,0 +1,44 @@
+Arguments: 
+  D:\program_file\nodejs\node.exe C:\Users\SHUVO\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express mongoose socket.id bcrypt cors cors dotenv
+
+PATH: 
+  D:\program_file\Git\mingw64\bin;D:\program_file\Git\usr\bin;C:\Users\SHUVO\bin;D:\program_file\Git\mingw64\bin;D:\program_file\Git\usr\bin;C:\Users\SHUVO\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\program_file\nodejs;D:\program_file\Git\cmd;D:\program_file\putty;D:\program_file\py\Scripts;D:\program_file\py;C:\Users\SHUVO\AppData\Local\Microsoft\WindowsApps;C:\Users\SHUVO\AppData\Roaming\npm;C:\Users\SHUVO\AppData\Local\Programs\Microsoft VS Code\bin;D:\program_file\ming\bin;D:\program_file\sdk\platform-tools;C:\Users\SHUVO\AppData\Local\GitHubDesktop\bin;C:\Users\SHUVO\AppData\Local\Programs\oh-my-posh\bin;C:\Users\SHUVO\AppData\Local\Programs\oh-my-posh\themes;D:\program_file\PyCharm Community Edition 2021.3.2\bin;D:\program_file\flutter\bin;D:\program_file\sdk\emulator;D:\program_file\IntelliJ IDEA Community Edition 2022.1.1\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/socket.id: Not found
+      at Request.params.callback [as _callback] (C:\Users\SHUVO\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\SHUVO\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\SHUVO\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\SHUVO\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "run": "nodemon index.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,14 @@
+.regFrom input {
+  @apply w-10/12 m-1 p-3 bg-blue-300 text-white text-2xl rounded-lg placeholder:text-white placeholder:opacity-50 border-none outline-none;
+}
+.regFrom span{
+  @apply uppercase
+}
+.regFrom a{
+  font-weight: bold
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
